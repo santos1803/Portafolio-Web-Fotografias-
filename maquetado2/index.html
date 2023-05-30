@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./recurso/icons8-cámara-16.png" type="image/x-icon">
+    <title>Portafolio Fotografico</title>
+
+
+</head>
+
+<body>
+    <!--Contenedor Padre de la pagina-->
+    <div class="container">
+        <!--Contenedor de la pagina que se abre cuando se le da click al menu de haburguesa-->
+        <div class="cv" id="cvs">
+            <!--Aqui esta el contenedor de la imagen-->
+            <section class="cvPrincipal">
+                <section class="cvImg">
+
+                </section>
+                <!--Aqui termina-->
+
+                <!--Aqui esta el contendor que tiene los enleces y el pie de pagina-->
+                <section class="cvTxt">
+                    <section class="cvTxt__one">
+                        <section class="cvTxtOne__enlace">
+                            <a class="cvTxtOne__enlace--a" href="./index.html">Inicio</a>
+                            <a class="cvTxtOne__enlace--b" href="./retrato.html">Retratos</a>
+                            <a class="cvTxtOne__enlace--c" href="./portafolio.html">Portafolio</a>
+                            <a class="cvTxtOne__enlace--d" href="./contacto.html">Contacto</a>
+                        </section>
+                        <section class="cvTxtOne__enlace">
+                            <a class="cvTxtOne__button">
+                                <button class="cancel" id="cerrar" onclick="cerrar();">
+                                    <div class="rotate"></div>
+                                    <div class="rotateO"></div>
+                                </button>
+                            </a>
+                        </section>
+                    </section>
+                    <section class="cvTxt__two">
+                        <section class="cvTxtTwo__contact">
+                            <a href="mailto:aileenmieres7@gmail.com">aileenmieres7@gmail.com</a>
+                            <a href="tel:+34641902688">+34 641 90 26 88</a>
+                        </section>
+                        <section class="cvTxtTwo__footer">
+                            <section class="cvTxtTwo__footer--a">
+                                <p>Para comisiones, impresiones personalizadas, solicitudes comerciales o solicitudes de
+                                    cartera, comuníquese con <a href="">aileenmieres.com</a></p>
+                            </section>
+                            <section class="cvTxtTwo__footer--b">
+                                <p>🍋 Copyright © 2023 Aileen Mieres</p>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </div>
+        <!--Aqui termina el contenedor-->
+
+        <!--Contenedor padre que se superpone en el index de la pagina donde esta el nombre, menu de hamburguesa, los tres enlaces que estan en el medio y los dos iconos que se encuentran abajo en ambos lados (correo e instagram)-->
+        <div class="containeres__first">
+            <!--Contenedor para el nombre y menu de hamburguesa-->
+            <div class="containeres">
+                <section class="containeres__nombre">
+                    <h2>Aileen Mieres</h2>
+                </section>
+
+                <a class="button">
+                    <button id="mostrar" onclick="mostrar();">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </button>
+                </a>
+            </div>
+            <!--Aqui termina-->
+
+            <!--Contenedor para los tres titulos que funcionan de enlaces para subpaginas-->
+            <div class="containers">
+                <a href="./retrato.html">
+                    <h1 class="colorOne">Retrato</h1>
+                </a>
+                <a href="./portafolio.html">
+                    <h1 class="colorTwo">Portafolio</h1>
+                </a>
+                <a href="./contacto.html">
+                    <h1 class="colorThree">Contacto</h1>
+                </a>
+            </div>
+            <!--Aqui termina-->
+
+            <!--Contenedor de los iconos de correo e instagram-->
+            <div class="container__img">
+                <section class="containeres__img">
+                    <a href=""><img src="./recurso/icons8-instagram-24.png" alt="" width="32px"></a>
+                </section>
+                <section class="containeres__img">
+                    <a href=""><img src="./recurso/icons8-arroba-48.png" alt="" width="32px"></a>
+                </section>
+            </div>
+            <!--Aqui termina-->
+        </div>
+        <!--Aqui termina-->
+
+        <!--Contenedor que posee las imagenes que se mueven en el index, esta distribuido en tres columnas principales, y dentro de las columnas hay 5 imagenes-->
+        <section class="container__section">
+            <!--Contenedor de la primera columna-->
+            <section class="section__one">
+                <section class="section__one--a">
+                    <img class="shadow" src="./recurso/img1.1.jpeg" alt="" width="350px" height="auto">
+                </section>
+                <section class="section__one--b">
+                    <img class="shadow" src="./recurso/img1.2.webp" alt="" width="280px" height="auto">
+                </section>
+                <section class="section__one--c">
+                    <img class="shadow" src="./recurso/img1.3.jpeg" alt="" width="350px">
+                </section>
+                <section class="section__one--d">
+                    <img class="shadow" src="./recurso/img1.4.jpeg" alt="" width="350px">
+                </section>
+                <section class="section__one--e">
+                    <img class="shadow" src="./recurso/img1.5.jpeg" alt="" width="320px">
+                </section>
+            </section>
+            <!--Aqui termina-->
+
+            <!--Contenedor de la segunda columna-->
+            <section class="section__two">
+                <section class="section__two--a">
+                    <img class="shadow" src="./recurso/img2.1.jpeg" alt="" width="350px" height="auto">
+                </section>
+                <section class="section__two--b">
+                    <img class="shadow" src="./recurso/img2.2.jpeg" alt="" width="350px" height="auto">
+                </section>
+                <section class="section__two--c">
+                    <img class="shadow" src="./recurso/img2.3.jpeg" alt="" width="450px">
+                </section>
+                <section class="section__two--d">
+                    <img class="shadow" src="./recurso/img2.4.webp" alt="" width="450px">
+                </section>
+                <section class="section__two--e">
+                    <img class="shadow" src="./recurso/img2.5.jpeg" alt="" width="250px">
+                </section>
+                <section class="section__two--f">
+                    <img class="shadow" src="./recurso/img2.6.jpeg" alt="" width="400px">
+                </section>
+            </section>
+            <!--Aqui termina-->
+
+            <!--Contenedor de la tercera columna-->
+            <section class="section__three">
+                <section class="section__three--a">
+                    <img class="shadow" src="./recurso/img3.1.jpeg" alt="" width="370px" height="auto">
+                </section>
+                <section class="section__three--b">
+                    <img class="shadow" src="./recurso/img3.2.jpeg" alt="" width="280px" height="auto">
+                </section>
+                <section class="section__three--c">
+                    <img class="shadow" src="./recurso/img3.3.jpeg" alt="" width="370px">
+                </section>
+                <section class="section__three--d">
+                    <img class="shadow" src="./recurso/img3.4.jpg" alt="" width="370px">
+                </section>
+                <section class="section__three--e">
+                    <img class="shadow" src="./recurso/img3.5.webp" alt="" width="370px">
+                </section>
+                <section class="section__three--f">
+                    <img class="shadow" src="./recurso/img3.6.jpeg" alt="" width="320px">
+                </section>
+            </section>
+            <!--Aqui termina-->
+
+        </section>
+        <!--Aqui termina-->
+
+    </div>
+    <!--Aqui termina-->
+
+    <!--Enlace a la paginda de JavaScript que permite desplegar la pagina de menu cuando se le de click al menu de hamburguesa-->
+    <script src="mains.js"></script>
+    
+</body>
+
+</html>
