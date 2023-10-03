@@ -95,8 +95,6 @@
     font-weight: bolder;
 }
 
-
-
 .cvTxtTwo__contact a {
     color: #e2662c;
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
@@ -135,10 +133,17 @@
 }
 
 .containers {
+    width: 30%;
     position: relative;
     z-index: 2;
     display: flex;
     flex-direction: column;
+    align-self: center;
+    background: rgba(255, 255, 255, 0.267);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 10px;
 }
 
 .containeres {
@@ -343,43 +348,33 @@ h1 {
     0% {
         transform: translateY(0%);
     }
-
     10% {
         transform: translateY(-10%);
     }
-
     20% {
         transform: translateY(-20%);
     }
-
     30% {
         transform: translateY(-30%);
     }
-
     40% {
         transform: translateY(-40%);
     }
-
     50% {
         transform: translateY(-50%);
     }
-
     60% {
         transform: translateY(-60%);
     }
-
     70% {
         transform: translateY(-70%);
     }
-
     80% {
         transform: translateY(-80%);
     }
-
     90% {
         transform: translateY(-90%);
     }
-
     100% {
         transform: translateY(-100%);
     }
@@ -397,7 +392,6 @@ h1 {
 .containeres--a {
     position: fixed;
     z-index: 100;
-
 }
 
 .containeres__nombre--a {
@@ -583,6 +577,7 @@ h1 {
     object-position: center;
 }
 
+
 /* Aqui se le da estilo a la pagina portafolio*/
 
 .proyecto {
@@ -613,9 +608,7 @@ h1 {
     cursor: pointer;
     border-radius: 29px;
     background: #ffffff;
-    box-shadow: 12px 12px 24px #ededed,
-        -12px -12px 24px #ffffff;
-
+    box-shadow: 12px 12px 24px #ededed, -12px -12px 24px #ffffff;
 }
 
 .proyectoUnoA__hijo {
@@ -625,7 +618,6 @@ h1 {
     margin: 2% 5%;
     border-radius: 10px;
 }
-
 
 .proyectoUnoA__hijo ul {
     width: 100%;
@@ -637,16 +629,12 @@ h1 {
 
 .proyectoUno__a:hover .proyectoUnoA__hijo ul {
     animation: animate 5s infinite ease-in-out;
-
 }
-
-
 
 .proyectoUnoA__hijo li {
     width: 100%;
     list-style: none;
     border-radius: 0px;
-
 }
 
 .proyectoImg {
@@ -661,31 +649,24 @@ h1 {
     0% {
         margin-left: 0%;
     }
-
     20% {
         margin-left: 0%;
     }
-
     25% {
         margin-left: -100%;
     }
-
     45% {
         margin-left: -100%;
     }
-
     50% {
         margin-left: -200%;
     }
-
     70% {
         margin-left: -200%;
     }
-
     75% {
         margin-left: -300%;
     }
-
     95% {
         margin-left: -300%;
     }
@@ -703,7 +684,6 @@ h1 {
     letter-spacing: 2px;
 }
 
-
 .proyectoUnoA__hija {
     display: flex;
     flex-direction: column;
@@ -717,7 +697,6 @@ h1 {
     padding-left: 35px;
     margin-bottom: 8px;
     gap: 8px;
-
 }
 
 .proyectoUnoHijas__a {
@@ -733,7 +712,6 @@ h1 {
 .proyectoUnoHijas__b h3 {
     font-family: 'Sofia Sans Semi Condensed', sans-serif;
     font-size: .9em;
-
     letter-spacing: 2px;
 }
 
@@ -744,7 +722,6 @@ h1 {
     justify-content: space-evenly;
     width: 25em;
     padding-bottom: 2%;
-
 }
 
 .proyectoUnoPrimas__a {
@@ -824,6 +801,7 @@ h1 {
     color: #ffffff;
 }
 
+
 /*Estilo a la pagina de contacto*/
 
 .containerContacto {
@@ -842,7 +820,6 @@ h1 {
     flex-direction: column;
 }
 
-
 .containeres--c {
     position: initial;
     margin-top: .5em;
@@ -857,7 +834,6 @@ h1 {
     flex-direction: column;
     align-items: center;
     gap: 35px;
-
 }
 
 .containerContacto__foto {
@@ -893,10 +869,8 @@ h1 {
 }
 
 
-
-
-
 /*Estilo de firma*/
+
 .containerContacto__firma {
     width: 20%;
 }
@@ -916,8 +890,8 @@ svg {
     to {
         stroke-dashoffset: 0;
     }
-
 }
+
 
 /*Estilo de formulario en pagina contacto*/
 
@@ -928,8 +902,6 @@ svg {
     justify-content: center;
     align-items: center;
     padding-top: 3em;
-    
-
 }
 
 .form {
@@ -957,8 +929,8 @@ svg {
     color: #DAA06D;
     font-size: 1.2em;
 }
+
 .formFlex {
-  
     display: flex;
     gap: 15px;
     justify-content: space-evenly;
